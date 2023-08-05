@@ -45,7 +45,7 @@ USED CONTEXT
 # NOT INSTALLED PACKAGES
 
 - Full calendar
-- nivo
+- nivo line, bar, pie, geography
 
 # PACKAGES INSTALLATION
 
