@@ -1,8 +1,15 @@
+USED HOOKS + custom hook = useMode  
+USED CONTEXT
+
 # PACKAGES USED
 
 - used material ui
   - for data grid
   - for icons
+  - CssBaseline: PREBUILD CSS PROVIDER
+  - themeProvider: allow to pass theme in MUI
+  - Box: LIKE DIVE IN CSS
+    , IconButtom, useTheme
 - react router
   - Browser Router
 - react pro side bar
