@@ -46,6 +46,9 @@ USED CONTEXT
 
 - Full calendar
 - nivo line, bar, pie, geography
+- formik
+- pro side bar
+- yup
 
 # PACKAGES INSTALLATION
 
@@ -55,6 +58,6 @@ cd react-admin
 code .
 npm install @mui/material @emotion/react @emotion/styled
 npm install @mui/x-data-grid @mui/icons-material
-npm install react-router-dom@6 react-pro-sidebar formik yup
+npm install react-router-dom@6 react-pro-sidebar@0.5 formik yup
 
 '''
