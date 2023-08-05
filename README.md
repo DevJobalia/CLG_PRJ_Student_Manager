@@ -1,25 +1,39 @@
 # PACKAGES USED
 
-## used material ui
+- used material ui
+  - for data grid
+  - for icons
+- react router
+  - Browser Router
+- react pro side bar
+  - easy in making side bar
+- formik
 
-- for data grid
-- for icons
+  - for making form
 
-## react router
+- yup
+  - for validation
 
-- Browser Router
+# VS CODE EXTENSIONS USED
 
-## react pro side bar
+- PRETTIER
+- TAILWIND SHADES
 
-easy in making side bar
+# File Folder Architecture:
 
-## formik
+- To avoid complication of navigating, in finding complicated code in nested complex file folder structure
+- APPROACH USED: **DUCKS PATTERN:**
+  - Organising code based on features
+  - Organise based on pages, not its nested component
+  - NESTED AS WELL AS FLAT
+- COMPONENTS FOLDER:
+  - COMPONENTS USED AT MULTIPLE LOCATION
+- SCENES FOLDER:
 
-for making form
+  - BASED ON WEB PAGES OF PRJ
+  - SUB FOLDER ARE NON REPEATING, ROUTES OF PRJ
 
-## yup
-
-for validation
+  - GLOBAL FOLDER
 
 # NOT INSTALLED PACKAGES
 
