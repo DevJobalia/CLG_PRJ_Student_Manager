@@ -1,4 +1,4 @@
-import { Box, IconButton, useTheme } from "@mui/material";
+import { Box, IconButton, Typography, useTheme } from "@mui/material";
 import { useContext } from "react";
 import { ColorModeContext, tokens } from "../../theme";
 import InputBase from "@mui/material/InputBase";
@@ -21,31 +21,46 @@ const Topbar = () => {
       {/* SEARCH BAR */}
       <Box
         display="flex"
-        backgroundColor={colors.primary[400]}
+        // backgroundColor={colors.primary[400]}
         borderRadius="3px"
       >
-        <InputBase sx={{ ml: 2, flex: 1 }} placeholder="Search" />
+        {/* <InputBase sx={{ ml: 2, flex: 1 }} placeholder="Search" />
         <IconButton type="button" sx={{ p: 1 }}>
           <SearchIcon />
-        </IconButton>
+        </IconButton> */}
+        <img
+          alt="clg-logo"
+          width="100px"
+          height="100px"
+          src={`../../assets/sakec.png`}
+          style={{ cursor: "pointer", borderRadius: "50%" }}
+        />
+        <Typography
+          variant="h2"
+          color={colors.grey[100]}
+          fontWeight="bold"
+          sx={{ m: "0 0 0 20px" }}
+        >
+          Mahavir Education Trust's <br /> Shah And Anchor
+        </Typography>
       </Box>
 
       {/* ICONS */}
       <Box display="flex">
-        <IconButton onClick={colorMode.toggleColorMode}>
+        <IconButton onClick={colorMode.toggleColorMode} sx={{ height: "40%" }}>
           {theme.palette.mode === "dark" ? (
             <DarkModeOutlinedIcon />
           ) : (
             <LightModeOutlinedIcon />
           )}
         </IconButton>
-        <IconButton>
+        <IconButton sx={{ height: "40%" }}>
           <NotificationsOutlinedIcon />
         </IconButton>
-        <IconButton>
+        <IconButton sx={{ height: "40%" }}>
           <SettingsOutlinedIcon />
         </IconButton>
-        <IconButton>
+        <IconButton sx={{ height: "40%" }}>
           <PersonOutlinedIcon />
         </IconButton>
       </Box>
