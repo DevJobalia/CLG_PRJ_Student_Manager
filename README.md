@@ -49,6 +49,7 @@ USED CONTEXT
 - formik
 - pro side bar
 - yup
+  trial
 
 # PACKAGES INSTALLATION
 
