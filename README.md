@@ -52,12 +52,12 @@ USED CONTEXT
 
 # PACKAGES INSTALLATION
 
-'''
+```bash
 npx create-react-app react-admin
 cd react-admin
 code .
 npm install @mui/material @emotion/react @emotion/styled
 npm install @mui/x-data-grid @mui/icons-material
 npm install react-router-dom@6 react-pro-sidebar@0.5 formik yup
-
-'''
+npm install styled-components @react-oauth/google jwt-decode
+```
